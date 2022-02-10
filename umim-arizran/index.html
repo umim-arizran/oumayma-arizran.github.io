@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+
+   
+    
+}
+body{
+    background-color:gainsboro;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    margin: 0px auto;
+      
+}
+
+.menucvd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 50px ;
+
+}
+header{
+    background-image: url(7685299header.jpg);
+    background-size: cover;
+    padding: 12px 70px;
+    height: 627px;
+    width: 960px;
+    
+   
+}
+header nav a{
+    text-decoration: none;
+   
+}
+.headercorona img{
+    height: 430px;
+    width: 410px;
+    
+    
+    
+}
+.covid{
+    margin-top: 50px;
+    width: 44%;
+}
+.p1{
+    color: rgba(25, 209, 154, 0.993);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.covid h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.p2{
+
+    color: white;
+    margin-bottom: 15px;
+    font-size: x-small;
+    font-size: 10px;
+}
+
+.covid button{
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(90, 241, 164);
+    font-size: 17px;
+   margin-top: 50px;
+}
+.nav1 ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+ 
+}
+.nav1  a{
+    padding-right: 60%;
+    }
+    .nav1 ul li{
+    margin-left: 1rem;
+}
+.nav1 ul li a{
+    color: #999;
+    }
+.nav1 ul li a.home, 
+.nav1 ul li a:hover{
+    color: green;
+     }
+.div_main1{
+    text-align: center;
+   padding: 30px ;
+    color: black;
+    
+}
+.div_main1 p{
+    padding: 10px;
+    color: #999;
+   
+    font-size: 13.5px;
+}
+.um{
+             display: flex;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20PX;
+                
+        }
+
+       .um p{
+           color: #999;
+       }
+        .um div{
+    padding: 30px 10px 70px;
+    text-align: center; 
+}
+.um img{
+    margin-bottom: 20px;
+}
+.um h2{
+    margin-bottom: 10px;
+}
+   
+.div2{
+    padding: 40px;
+    
+    align-items: center;
+    
+    
+}
+.div2 h1{
+    margin-bottom: 10px;
+}
+
+ .div3{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.p3{
+    
+    font-size: 13.5px;
+    margin-bottom: 20px;
+}
+.p4{
+    
+    font-size: 13.5px;
+    padding: 36px 0px 50px ;
+
+    
+    
+
+}
+.div3 img{
+    width: 363px;
+    height: 350px;
+    margin-right: 10px;
+    
+}
+.div3 button{
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(90, 241, 164);
+    font-size: 17px;
+    
+}
+
+.symptoms{
+    background-color: rgb(15, 35, 68);
+    color: white;
+    text-align: center;
+    
+    
+   
+   
+}
+.virus_sy p{
+    margin-left: 45px;
+    margin-right: 50px;
+    font-size: 11px;
+}
+.virus_sy h1{
+    margin-bottom: 15px;
+}
+.virus_sy {
+    padding-top: 50px;
+    text-align: center;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px ;
+    text-align: center;
+
+    
+}
+.photos h2{
+    margin-bottom: 10px;
+}
+.aa{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    width: 280px;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 10px;
+    font-size: 9px;
+}
+.aaa{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    width: 280px;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 9px;
+    
+    
+}
+.Corona_Statistics {
+     width: 900px;
+    margin: -30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f6f7fb;
+    margin-left: 0px;
+    height: 120px;
+   
+}
+
+
+.prv1{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+.prv2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+
+.Prevention_div1{
+    text-align: center;
+    margin: 80px;
+
+}
+.Prevention_div1 h1{
+   margin: 18px;
+
+}
+
+.Prevention_div2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 970px;
+    margin-bottom: 50px;
+   
+}
+.Prevention_div2 p{
+    font-size: 12px;
+   padding: 13px 13px 10px;
+}
+.Prevention_div2 img {
+    margin-top: 25px;
+}
+.table{
+    
+    background-color:#f6f7fb ;
+    width: 970px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+    
+    
+}
+
+label,input,textarea{
+    margin:10px 85px;
+}
+input{
+    width:500px;
+    height: 20px;
+    border: 1px solid rgb(216, 216,216);  
+}
+textarea{
+    border: 1px solid rgb(216, 216,216);  
+}
+.table button{
+    background-color: rgb(90, 241, 164);
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 80px;
+    border: none;
+}
+.star{
+    color: red;
+}
+table h1{
+    margin: 35px;
+    margin-left: 80px;
+
+} 
+.send{
+    margin: 10px;
+} 
+.virus h2{
+    color: rgb(90, 241, 164); 
+} 
+.virus{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31, 31, 77);
+    width: 115%;
+    margin-right: 90px;
+    margin-left: -19px;
+    height: 350PX;
+}
+.virus_div1{
+    display: flex ;
+    justify-content: space-between;
+    margin: 50px;
+    font-size: 15px;
+    
+    
+  
+}
+.virus P{
+    color: #999;
+    text-align: left;
+}
+.virus li{
+    text-decoration: none;
+}
+.virus_divv1{
+    
+    width: 300px;
+    margin: 15px;
+    font-size: 14.5px;
+    
+} 
+.ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav ul li {
+    margin-bottom: 10px;
+}
+.virus_div1 ul {
+   
+    list-style: none;
+}
+.virus_div1 a{
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+   
+}
+.p{
+    margin: -35px;
+    text-align: center;
+    color: gray;
+   
+}
+.p a{
+    text-decoration: none;
+    list-style: none;
+    color:rgb(90, 241, 164) ;
+}
+.virus_divv2,
+.virus_divv3,
+.virus_divv4{
+ padding: 3px;
+}
+.virus_divv4{
+    width: 290px;
+}
+.virus_divv3 {
+ width: 300px;
+ 
+
+}
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="menucvd">
+    <img src="menulogo.png" alt="logo">
+<nav class="nav1">
+    <ul>
+        <li><a class="home" href="#">Home</a></li>
+        <li><a href="#"> Symptoms</a></li>
+        <li><a href="#">Prevention</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+</nav>
+</div>
+<div class="menucvd">
+    <div class="covid">
+        <p class="p1">COVID-19</p>
+        <h2>How to Protect Yourself from </h2>
+        <h2>CoronaVirus</h2>
+    <p class="p2"> Lorem Ipsum is simply dummy text of the printing and typesetting </p> <p class="p2"> industry. Lorem Ipsum has been the industry's standard dummy text ever  </p><p class="p2">since the 1500s</p>
+    <button>Learn More</button>
+</div>
+    <div class="headercorona">
+        <img src="headerforeground01.png" alt="headercorona">
+    </div>
+</div>
+
+</header>
+<div class="div_main1">
+    <h2>How Virus Spread</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> 
+</div>
+<section >
+    <div class="um">
+    <div>
+        <img src="human contact.png" alt="">
+        <h2> Human Contact</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div >
+        <img src="air transmissions.png" alt="">
+        <h2>Air Transmissions</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div >
+        <img src="touching objects.png" alt="">
+        <h2>Human Contact</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    </div>
+
+</section>
+<section>
+    <div  class="div3">
+        <div class="div2">
+            <h1>What is Coronavirus?</h1>
+            <p class="p3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p class="p4">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+            <button>Read  More</button>
+        </div> 
+        <div> 
+            
+            <img src="corona-image.jpg" alt="" >
+            </div> 
+             
+    </div>
+</section>
+<section>
+    <div class="symptoms">
+        <div class="virus_sy">
+            <h1>Coronavirus Symptoms</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+        <div class="photos">
+            <div class="aa">
+            <img src="011.jpg" alt="" class="p1">
+             <h2>Coughing & Sneezing</h2>
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        <div class="aa">
+        <img src="02.jpg" alt="" class="ph2">
+           <h2>High Fever</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+       <div class="aa">
+        <img src="03.jpg" alt="" class="ph3">
+         <h2>Headache</h2>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    <div class="photos">
+        <div class="aaa">
+        <img src="04.jpg" alt="">
+        <h2>Difficult to Breath</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+        <div class="aaa">
+        <img src="05.jpg" alt="">
+        <h2>Frustration</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="aaa">
+        <img src="06.jpg" alt="">
+        <h2>Sore Throat</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+</section>
+<section class="Corona_Statistics">
+    <h2>Total Corona Statistics:</h2>
+    <div>
+        <h1>339,390</h1>
+        <p>+ve Cases</p>
+    </div>
+    <div>
+        <h1>98,908</h1>
+        <p>Recovered Cases</p>
+    </div>
+    <div>
+        <h1>339,390</h1>
+        <p>+ve Cases</p>
+    </div>
+</section>
+<section class="Prevention">
+    <div class="Prevention_div1">
+        <h1>Prevention Coronavirus</h1>
+        <p class="prv1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p> <p class="prv2"> dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+    <div class="Prevention_div2">
+        <div>
+            <img src="wear a mask1.png" alt="">
+            <h3>Always Wear a Mask</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div>
+            <img src="use a napkins.png" alt="">
+            <h3>Always Use a Napkins</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div>
+            <img src="hand wash1.png" alt="">
+            <h3>Hand Wash Regularly</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div>
+            <img src="go to the doctor.png" alt="">
+            <h3>Go to Doctor</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+    </div>
+</section>
+<section class="table">
+    <form action="#">
+        <table>
+            <tr>
+                <td></td>
+                <td><h1>Let's Get in Touch</h1></td>
+            </tr>
+            <tr>
+                <td><label for="#">Name</label></td>
+                <td><input type="text"></td>
+            </tr>    
+            <tr>
+                <td><label for="#">Email<span class="star">*</span></label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="#">Subject</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="#">Message</label></td>
+                <td><textarea name="#" id="#" cols="66" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="#">File</label></td>
+                <td><button>Browse</button><span> No File Selected</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button class="send">Send</button></td>
+            </tr>
+        </table>
+    </form>
+</section>
+<footer>
+    <div class="virus">
+        <div class="virus_div1">
+            <div class="virus_divv1">
+                <h2 >Coronavirus</h2>
+                <p>Lorem ipsum dolor sit amet, test link adipiscing elit.Nullam dignissim convallis est.Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</p>
+            </div>
+            <div class="virus_divv2">
+                <h2>Pages</h2>
+                <nav>
+                    <ul class="ul">
+                        <li><a  href="#">Home</a></li>
+                        <li><a  href="#">About</a></li>
+
+                        <li><a  href="#">Contact</a></li>
+                        
+                        <li><a  href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="virus_div1">
+            <div class="virus_divv3">
+                <h2>Address</h2>
+                <p>123 ABC Ave Street view #456 xyz</p>
+                <p>New York City</p>
+                <p>NY 10005,USA</p>
+            </div>
+            <div class="virus_divv4">
+                <h2>Get In Touch</h2>
+                <ul>
+                    <li>
+                        <img src="Facebook.png" alt="">
+                        <a  href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <img src="Twitter.png" alt="">
+                        <a  href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <img src="LinkedIn.png" alt="">
+                        <a href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="p"><a href="#">WordPress Theme</a> Designed With Template Toaster</p>
+</footer>
+</body>
+</html>
